@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="heading">Calculator Application...</h1>
+ <main>
+<div class="calculator">
+  
+  <div id="display" class="display">0</div>
+  <div class="buttons">
+    <button onclick="clearDisplay()" class="clear" style="font-size:xx-large;"><b>C</b></button>
+    <button onclick="appendOperator('/')" >/</button>
+    <button onclick="appendOperator('*')" >*</button>
+    <button onclick="deleteLast()">⌫</button>
+
+    <button onclick="appendNumber(7)">7</button>
+    <button onclick="appendNumber(8)">8</button>
+    <button onclick="appendNumber(9)">9</button>
+    <button onclick="appendOperator('-')" >-</button>
+
+    <button onclick="appendNumber(4)">4</button>
+    <button onclick="appendNumber(5)">5</button>
+    <button onclick="appendNumber(6)">6</button>
+    <button onclick="appendOperator('+')" >+</button>
+
+    <button onclick="appendNumber(1)">1</button>
+    <button onclick="appendNumber(2)">2</button>
+    <button onclick="appendNumber(3)">3</button>
+    <button onclick="calculate()" class="operator">=</button>
+
+    <button onclick="appendNumber(0)" >0</button>
+    <button onclick="appendDot()">.</button>
+
+    <button onclick="calculateSquareRoot()">√</button>
+    <button onclick="calculateSquare()">x²</button>
+    <button onclick="appendOperator('**')">x^y</button>
+    <button onclick="calculateSin()">sin</button>
+    <button onclick="calculateCos()">cos</button>
+    <button onclick="calculateTan()">tan</button>
+  </div>
+</div>
+</main>  
+<script src="script.js"></script>
+</body>
+</html>

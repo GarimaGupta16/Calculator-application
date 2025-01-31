@@ -1,0 +1,78 @@
+   body{
+    background-image: url("https://img.freepik.com/free-vector/mathematics-background-geometric-frame-modern-education-design-vector_53876-156362.jpg?t=st=1730865087~exp=1730868687~hmac=b87a44872312d1b077f1162c9c3441e43c55d3b7a7a30b936cbb5febbef340c6&w=1060");
+    background-size: 100%;
+    
+
+   }
+
+   .heading{
+    text-align: center;
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    color:#ffffff;
+
+   }
+   .calculator{
+    width: 500px;
+    border-radius:10px;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 5px 5px 8px #292a2a;
+    text-align: center;
+    margin-top:5%;
+    margin-left: 37%;
+ 
+   
+  }
+  .display {
+    height:100px;
+    font-size: 50px;
+    text-align: right;
+    padding: 5px;
+    background-color:#847e7e;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow:auto;
+
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    height:80px;
+    width:120px;
+    font-size:30px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor:pointer;
+    
+  }
+  
+  button.operator {
+    background-color: #b6600b;
+    font-size:xx-large;
+    font-weight: bolder;
+  }
+  
+  button.clear {
+    background-color: #ab0808;
+   
+  }
+  
+  button:active {
+    opacity: 0.8;
+  }
+  button:hover {
+    scale:120%;
+    border: 7px solid rgb(119, 12, 12);
+    background-color:rgb(211, 174, 171);
+   
+
+  }
+  
